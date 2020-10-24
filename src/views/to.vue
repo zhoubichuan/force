@@ -4,9 +4,10 @@
     <svg width="960" height="600"></svg>
   </div>
 </template>
-<script>
+<script >
 import * as d3 from "d3"
-export default {
+import {defineComponent} from 'vue'
+export default defineComponent({
   data() {
     return {}
   },
@@ -137,7 +138,7 @@ export default {
       }
     },
   },
-}
+})
 </script>
 <style scoped>
 svg {

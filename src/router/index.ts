@@ -7,6 +7,10 @@ export default createRouter({
       component: () => import("../views/to.vue"),
     },
     {
+      path: "/eg",
+      component: () => import("../components/HelloWorld.vue"),
+    },
+    {
       path: "/todo",
       component: () => import("../views/ToDoItem.vue"),
     },
