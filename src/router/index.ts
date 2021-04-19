@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory } from "vue-router"
 export default createRouter({
-  history: createWebHashHistory(),
+  history: createWebHashHistory('Vue-D3.js'),
   routes: [
     {
       path: "/",
