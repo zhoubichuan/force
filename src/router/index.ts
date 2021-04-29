@@ -1,18 +1,14 @@
 import { createRouter, createWebHashHistory } from "vue-router"
 export default createRouter({
-  history: createWebHashHistory('Vue-D3.js'),
+  history: createWebHashHistory('Vue-D3'),
   routes: [
     {
       path: "/",
-      component: () => import("../views/to.vue"),
+      component: () => import("../views/force.vue"),
     },
     {
-      path: "/eg",
-      component: () => import("../components/HelloWorld.vue"),
-    },
-    {
-      path: "/todo",
-      component: () => import("../views/ToDoItem.vue"),
+      path: "/relation",
+      component: () => import("../views/relation.vue"),
     },
   ],
 })

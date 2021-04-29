@@ -4,6 +4,7 @@
     <svg width="960" height="600"></svg>
   </div>
 </template>
+
 <script >
 import * as d3 from "d3"
 import {defineComponent} from 'vue'
@@ -140,6 +141,7 @@ export default defineComponent({
   },
 })
 </script>
+
 <style scoped>
 svg {
   border: 1px solid #ccc;
